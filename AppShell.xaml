@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="lutongbahay.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:lutongbahay.bahay"
+    Shell.FlyoutBehavior="Flyout"
+    Title="lutongbahay">
+
+
+    <FlyoutItem Title="Breakfast">
+        <ShellContent  Title="Tapsilog" ContentTemplate="{DataTemplate local:tapsilog}"/>
+        <ShellContent  Title="Tosilog" ContentTemplate="{DataTemplate local:tosilog}"/>
+        <ShellContent  Title="Champorado" ContentTemplate="{DataTemplate local:champorado}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Lunch">
+        <ShellContent  Title="Adobo" ContentTemplate="{DataTemplate local:adobo}"/>
+        <ShellContent  Title="Sinigang" ContentTemplate="{DataTemplate local:sinigang}"/>
+        <ShellContent  Title="Kare kare" ContentTemplate="{DataTemplate local:kare_kare}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Dinner">
+        <ShellContent  Title="Lechon kawali" ContentTemplate="{DataTemplate local:lechon_kawali}"/>
+        <ShellContent  Title="Laing" ContentTemplate="{DataTemplate local:laing}"/>
+        <ShellContent  Title="Tinolang manok" ContentTemplate="{DataTemplate local:tinolang_manok}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Desserts">
+        <ShellContent  Title="Halo halo" ContentTemplate="{DataTemplate local:halohalo}"/>
+        <ShellContent  Title="Leche Flan" ContentTemplate="{DataTemplate local:leche_flan}"/>
+        <ShellContent  Title="Biko" ContentTemplate="{DataTemplate local:biko}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Drinks">
+        <ShellContent  Title="Sago`t gulaman" ContentTemplate="{DataTemplate local:sagot_gulaman}"/>
+        <ShellContent  Title="Kape" ContentTemplate="{DataTemplate local:kape}"/>
+        <ShellContent  Title="Buko" ContentTemplate="{DataTemplate local:buko}"/>
+    </FlyoutItem>
+
+
+</Shell>
